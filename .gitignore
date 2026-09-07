@@ -1,0 +1,33 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+*.mypy_cache/
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.env
+
+# Local Vector Store & Milvus Lite Storage
+# Ignores both flat files and directories named *.db, plus lock files
+data/*.db
+data/*.db/
+data/*.lock
+data/**/LOCK
+data/**/.database-staging/
+
+# Preserve data folder structure in GitHub
+!data/.gitkeep
+
+# IDE & OS Artifacts
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

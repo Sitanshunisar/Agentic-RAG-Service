@@ -1,0 +1,5 @@
+Project Apollo was initiated by the Core AI Division in January 2025.
+Its primary objective is reducing inference latency in self-hosted LLMs using speculative decoding.
+The project reached Phase 2 in August 2025, deploying lightweight quantized models across on-premise edge clusters.
+The default fallback timeout for the agentic gateway is configured at 450 milliseconds.
+Contact team lead Dr. Elena Vance at evance@internal-net.corp for system escalation tickets.
